@@ -1,0 +1,45 @@
+.container {
+  @apply flex justify-between;
+}
+
+.content {
+  @apply flex;
+}
+
+.image {
+  @apply relative block overflow-hidden h-28 aspect-square rounded-md bg-gray-200;
+
+  & img {
+    @apply h-full w-full object-cover object-center transition;
+  }
+
+  &:after {
+    @apply content-[''] absolute block rounded-md border border-solid border-transparent inset-0 transition;
+  }
+
+  &:hover {
+    & img {
+      @apply scale-105;
+    }
+
+    &:after {
+      @apply border-blue-500;
+    }
+  }
+}
+
+.information {
+  @apply flex flex-col items-baseline ml-8;
+}
+
+.name {
+  @apply text-base text-gray-900 hover:text-blue-500;
+}
+
+.brand {
+  @apply text-sm text-gray-500 mb-4;
+}
+
+.price {
+  @apply text-lg font-medium text-gray-900;
+}

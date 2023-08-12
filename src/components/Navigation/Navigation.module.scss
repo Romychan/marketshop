@@ -1,0 +1,18 @@
+.nav {
+}
+
+.menu {
+  @apply flex;
+}
+
+.item {
+  @apply mr-8 last:mr-0;
+}
+
+.link {
+  @apply text-base hover:text-blue-500;
+
+  &.active {
+    @apply text-blue-500;
+  }
+}

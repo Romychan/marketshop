@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Men T-Shirt",
+      "brand": "Shirt Brand",
+      "src": "http://localhost:5000/image/1.png",
+      "price": 25,
+      "description": "Men's T-shirt made of cotton sports plain loose with short sleeves. A fashionable cotton T-shirt with a classic cut is a thing that will suit both men and women. The T-shirt is made of thick cotton fabric and has a round neck. The T-shirt is suitable for recreation, tourism and sports."
+    },
+    {
+      "id": 2,
+      "name": "Jacket",
+      "brand": "Jacket Brand",
+      "src": "http://localhost:5000/image/2.png",
+      "price": 55,
+      "description": "A men's vest is a basic thing in the wardrobe. A vest is an ideal option for spring or autumn clothing, and can also be suitable for an early winter sweater. The modern model is perfectly combined with sports and classic things. Comfortable pockets, perfect fit, loose fit."
+    },
+    {
+      "id": 3,
+      "name": "Backpack",
+      "brand": "Bag Brand",
+      "src": "http://localhost:5000/image/3.png",
+      "price": 35,
+      "description": "A model for men and women in a minimalist style. A very stylish backpack. Made of durable cotton material. A very convenient and practical model for tourism and everyday life. The soft straps of the backpack will allow you to carry it without overloading your shoulders. There is a place for personal belongings in the main compartment. There are pockets for water on the sides. The backpack is ideal for both an adult and a child."
+    },
+    {
+      "id": 4,
+      "name": "Poncho",
+      "brand": "Poncho Brand",
+      "src": "http://localhost:5000/image/4.png",
+      "price": 40,
+      "description": "A knitted poncho is well suited for everyday wear. Made in medium knitting density. Such a fashionable item will add elegance and fashion to your wardrobe. The poncho will warm you on a cool evening and provide maximum comfort. You can use it to create spectacular images."
+    },
+    {
+      "id": 5,
+      "name": "Women Shirt",
+      "brand": "Shirt Brand",
+      "src": "http://localhost:5000/image/5.png",
+      "price": 65,
+      "description": "Women's long-sleeved shirt is suitable for a casual look. This shirt is an excellent choice for work, leisure or festive events. Made of cotton material. The shirt has a classic collar, which makes it suitable for any look. It is a good addition to the wardrobe and will make you look fashionable every day."
+    },
+    {
+      "id": 6,
+      "name": "Sports Shoes",
+      "brand": "Shoes Brand",
+      "src": "http://localhost:5000/image/6.png",
+      "price": 75,
+      "description": "These sneakers are perfect for everyday wear, sports and running. This shoe has excellent support and stability during movement. The sneakers are perfect for the summer season thanks to the ventilation holes. Suitable for men and women. They are lightweight, comfortable and reliable."
+    }
+  ]
+}

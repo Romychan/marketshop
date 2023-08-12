@@ -1,0 +1,15 @@
+.button {
+  @apply transition rounded-md text-sm font-medium border border-transparent focus:outline-none;
+
+  &.primary {
+    @apply px-3 py-2 text-white bg-gray-900 shadow-sm hover:bg-gray-800;
+  }
+
+  &.secondary {
+    @apply px-3 py-2 text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-blue-500;
+  }
+
+  &.transparent {
+    @apply text-gray-500 hover:text-gray-800;
+  }
+}

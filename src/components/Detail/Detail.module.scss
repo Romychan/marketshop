@@ -1,0 +1,47 @@
+.container {
+  @apply py-16 flex justify-center items-center;
+
+  &.quickview {
+    @apply py-0;
+  }
+}
+
+.content {
+  @apply mx-auto flex max-w-5xl w-full;
+}
+
+.image {
+  @apply relative pb-[60%] w-full max-w-sm rounded-lg;
+
+  & img {
+    @apply absolute top-0 left-0 rounded-lg h-full w-full object-cover object-center;
+  }
+}
+
+.information {
+  @apply max-w-md ml-8 w-full;
+}
+
+.detail {
+  @apply mb-4;
+}
+
+.name {
+  @apply text-3xl text-gray-900;
+}
+
+.price {
+  @apply text-2xl font-medium text-gray-900 mt-2;
+}
+
+.description {
+  @apply mt-10;
+}
+
+.subtitle {
+  @apply text-sm font-medium text-gray-900;
+}
+
+.text {
+  @apply text-sm text-gray-600;
+}

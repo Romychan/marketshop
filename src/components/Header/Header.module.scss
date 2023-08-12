@@ -1,0 +1,15 @@
+.header {
+  @apply py-6 bg-white;
+}
+
+.container {
+  @apply flex items-center justify-between;
+}
+
+.content {
+  @apply flex items-center;
+}
+
+.logo {
+  @apply mr-8;
+}

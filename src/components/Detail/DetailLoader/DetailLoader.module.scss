@@ -1,0 +1,17 @@
+@import '../Detail.module.scss';
+
+.name {
+  @apply w-1/2;
+}
+
+.price {
+  @apply w-16;
+}
+
+.button {
+  @apply w-40;
+}
+
+.subtitle {
+  @apply mb-1 w-1/4;
+}

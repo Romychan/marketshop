@@ -1,0 +1,27 @@
+.container {
+  @apply p-8 w-1/3 border rounded-lg border-gray-200 self-start;
+}
+
+.title {
+  @apply font-medium text-base mb-8;
+}
+
+.information {
+  @apply flex justify-between mb-8;
+}
+
+.text {
+  @apply text-sm text-gray-600;
+}
+
+.subtitle {
+  @apply font-medium text-xl text-gray-900;
+}
+
+.total {
+  @apply flex font-semibold justify-between text-sm uppercase mb-4;
+}
+
+.button {
+  @apply w-full;
+}

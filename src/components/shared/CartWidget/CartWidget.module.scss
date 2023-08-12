@@ -1,0 +1,25 @@
+.container {
+  @apply flex justify-center items-center flex-col;
+}
+
+.content {
+  @apply relative;
+
+  &:hover {
+    & .counter {
+      @apply bg-blue-500;
+    }
+
+    & .icon {
+      @apply stroke-blue-500;
+    }
+  }
+}
+
+.counter {
+  @apply absolute -top-3 left-3 h-5 aspect-square flex items-center justify-center rounded-full bg-gray-900 text-white transition;
+}
+
+.icon {
+  @apply transition;
+}
